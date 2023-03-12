@@ -1,0 +1,71 @@
+
+.navbar {
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+img.banner {
+	width: auto;
+	height: 50px;
+	margin-right: 13px;
+	opacity: 1;
+	transition: 0.5s;
+	border-radius: 0;
+	transition: 0.8s;
+	vertical-align: middle;
+}
+
+img.banner2 {
+	width: auto;
+	height: 50px;
+	margin-right: 13px;
+	opacity: 1;
+	transition: 0.5s;
+	border-radius: 0;
+	transition: 0.8s;
+	vertical-align: middle;
+}
+
+img.banner:hover {
+	opacity: 0.6;
+	transition: 0.5s;
+	border-radius: 30px;
+	transition: 0.8s;
+}
+
+.navbarText {
+	text-decoration: none;
+	font-family: Inter;
+	color: #4c00ff;
+	transition: 0.5s;
+	vertical-align: middle;
+	opacity: 1;
+	transition: 0.5s;
+	margin-right: 8px;
+}
+
+.navBarIcon {
+	color: #4c00ff;
+	transition: 0.5s;
+	opacity: 1;
+	transition: 0.5s;
+	vertical-align: middle;
+	height: 30px;
+	width: auto;
+}
+
+.navbarText:hover, navBarIcon:hover {
+	color: #00aaff;
+	transition: 0.5s;
+	opacity: 0.6;
+	transition: 0.5s;
+}
+
+/* @media screen and (max-width: 450px) {
+  .navbar {}
+	.navBarIcon {}
+  img.banner {visibility: hidden;}
+	img.banner2 {visibility: visible;}
+  .navbarText {}
+	.navBarIcon {}
+} */
