@@ -209,6 +209,10 @@ a.store {
 	transition: 0.4s;
 	border-radius: 18px;
 	transition: 0.4s;
+	width: 250px;
+	transiton: 0.3s;
+	height: auto;
+	transiton: 0.3s;
 }
 
 img.store {
