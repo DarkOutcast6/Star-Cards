@@ -246,6 +246,15 @@ h2.store {
   font-size: 15px;
 }
 
+.divtxt {
+	border: 0px;
+	border-left: 1px;
+	border-right: 1px;
+	border-color: black;
+	font-family: "Montserrat";
+	border-bottom: 2px;
+}
+
 /* Card Pages */
 .cardPage {
 	text-align: center;
