@@ -433,6 +433,6 @@ img.alert {
 	width: auto;
 }
 
-@media screen and (max-width: 450px) {
-	div.alert{visibility: visible; opacity: 1; opacity: 0; transition: 0.4s;}
-}
+/* @media screen and (max-width: 600px) {
+/* 	 */
+} */
