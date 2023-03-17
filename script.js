@@ -3,7 +3,7 @@
 
 if(/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
 	location.replace("mobile.html");
-  document.write("mobile");
+  // document.write("mobile");
 }
 
 function hideAlert() {
