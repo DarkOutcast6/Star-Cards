@@ -78,6 +78,7 @@ img.banner:hover {
 	vertical-align: middle;
 	height: 30px;
 	width: auto;
+	margin-right: 7px;
 }
 
 .navbarText:hover, navBarIcon:hover {
@@ -433,8 +434,11 @@ img.alert {
 	width: auto;
 }
 
-/* @media screen and (max-width: 600px) {
-} */
+@media screen and (max-width: 600px) {
+	.navbar {text-align: center;}
+	span.navbarText {display: none;}
+	.navbarIcon {margin-right: 15px;}
+}
 
 /* Newsletter */
 .sign-up {
