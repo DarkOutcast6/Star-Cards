@@ -12,7 +12,7 @@
 // $('#navbar').html(navbar);
 // }
 
-function hideAlert() {
-	document.elm.style.visibility = "hidden";
-}
+// function hideAlert() {
+// 	document.elm.style.visibility = "hidden";
+// }
 
