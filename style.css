@@ -75,7 +75,7 @@ img.banner {
 }
 
 img.banner:hover {
-	opacity: 0.6;
+	opacity: 0. 6;
 	transition: 0.5s;
 	border-radius: 30px;
 	transition: 0.8s;
@@ -468,25 +468,4 @@ img.alert {
 	text-align: center;
 }
 
-/* Donate */
-.donate {
-	text-align: center;
-}
-
-img.donate {
-	width: 180px;
-	transition: 0.4s;
-	height: auto;
-	transition: 0.4s;
-  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
-	transition: 0.4s;
-}
-
-img.donate:hover {
-	width: 190px;
-	transition: 0.4s;
-	height: auto;
-	transition: 0.4s;
-  box-shadow: 0 6px 7px 0 rgba(0, 0, 0, 0.4);
-	transition: 0.4s;
-}
+/* Donate */ 
