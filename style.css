@@ -42,6 +42,7 @@ h2, h3, h4 {
 }
 
 .navbar {
+	z-index: 1000;
   position: fixed;
 	top: -1px;
 	width: 100%;
@@ -155,6 +156,8 @@ footer {
 button.continue {
 	width: 80%;
 	height: 40px;
+	background: blue;
+	transition: 0.4s;
 	background-image: linear-gradient(to right, #0008ff , #00d5ff);	
 	font-family: "Montserrat";
 	border-radius: 20px;
@@ -168,6 +171,8 @@ button.continue:hover {
 	border-radius: 9px;
 	transition: 0.5s;
 	cursor: pointer;
+	background: #0033ff;
+	transition: 0.4s;
 	.buttonIcon {visibility: hidden;}
 	.buttonIconHover {visibility: visible;}
 }
@@ -193,6 +198,8 @@ button.continue:hover {
 	border: 0px;
 	margin-bottom: 53px;
 	margin: 46px;
+	opacity: 1;
+	transition: 0.4s;
 }
 
 .job:hover {
@@ -201,6 +208,8 @@ button.continue:hover {
 	height: 202px;
 	transition: 0.5s;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.4s;
+	opacity: 0.8;
 	transition: 0.4s;
 }
 
@@ -231,6 +240,8 @@ a.store {
   font-family: arial;
 	border-radius: 13px;
 	margin-bottom: 25px;
+	opacity: 1;
+	transition: 0.5s;
 }
 
 .card:hover {
@@ -242,6 +253,8 @@ a.store {
 	transiton: 0.3s;
 	height: auto;
 	transiton: 0.3s;
+	opacity: 0.8;
+	transition: 0.5s;
 }
 
 img.store {
@@ -469,3 +482,24 @@ img.alert {
 }
 
 /* Donate */ 
+.donate {
+	text-align: center;
+}
+
+img.donate {
+	width: 180px;
+	transition: 0.4s;
+	height: auto;
+	transition: 0.4s;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
+	transition: 0.4s;
+}
+
+img.donate:hover {
+	width: 190px;
+	transition: 0.4s;
+	height: auto;
+	transition: 0.4s;
+  box-shadow: 0 6px 7px 0 rgba(0, 0, 0, 0.4);
+	transition: 0.4s;
+}
