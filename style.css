@@ -4,7 +4,7 @@ html {
   height: 100%;
   width: 100%;
 	scroll-behavior: smooth;
-/* 	background-image: linear-gradient(to right, red, yellow; */
+	/* background-image: linear-gradient(to right, red, yellow; */
 }
 
 body {
@@ -354,6 +354,23 @@ button.order {
 	border-radius: 13px;
 	transition: 0.4s;
 	background-color: #B5FFCE;
+}
+
+button.noclick {
+	color: white;
+	margin-bottom: 20px;
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2);
+	font-family: "Montserrat";
+	border: 0px;
+	width: 80px;
+	height: 40px;
+	border-radius: 13px;
+	opacity: 0.8;
+	background-color: #B5FFCE;
+}
+
+button.noclick:hover {
+	cursor: not-allowed;
 }
 
 img.order {
