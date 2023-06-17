@@ -143,14 +143,12 @@ footer {
 	vertical-align: middle;
 	height: 30px;
 	width: auto;
-	visibility: visible;
 }
 
 .buttonIconHover {
 	vertical-align: middle;
 	height: 30px;
 	width: auto;
-	visibility: hidden;
 }
 
 button.continue {
@@ -167,14 +165,14 @@ button.continue {
 	color: white;
 }
 
+
+
 button.continue:hover {
 	border-radius: 9px;
 	transition: 0.5s;
 	cursor: pointer;
 	background: #0033ff;
 	transition: 0.4s;
-	.buttonIcon {visibility: hidden;}
-	.buttonIconHover {visibility: visible;}
 }
 
 /* About us page*/
