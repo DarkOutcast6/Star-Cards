@@ -130,6 +130,7 @@ footer {
 	margin-top: 170px;
 	font-family: "Teko";
 	text-align: left;
+  padding: 10px;
 }
 
 @media screen and (max-width: 690px) {
@@ -149,12 +150,15 @@ footer {
 	vertical-align: middle;
 	height: 30px;
 	width: auto;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
 }
 
 button.continue {
 	width: 80%;
 	height: 40px;
-	background: blue;
+	/* background: blue; */
 	transition: 0.4s;
 	background-image: linear-gradient(to right, #0008ff , #00d5ff);	
 	font-family: "Montserrat";
@@ -163,8 +167,11 @@ button.continue {
 	font-size: 16px;
 	border: white;
 	color: white;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  color: white;
 }
-
 
 
 button.continue:hover {
